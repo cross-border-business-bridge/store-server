@@ -5,7 +5,7 @@
  * @LastEditors: hai-27
  * @LastEditTime: 2020-03-27 15:36:01
  */
-create database storeDB if not exists;
+CREATE DATABASE IF NOT EXISTS storeDB;
 use storeDB;
 create table users(
   user_id int primary key auto_increment,
