@@ -11,9 +11,9 @@ const shoppingCartController = require('../../controllers/shoppingCartController
 let shoppingCartRouter = new Router();
 
 shoppingCartRouter
-  .post('/user/shoppingCart/getShoppingCart', shoppingCartController.GetShoppingCart)
-  .post('/user/shoppingCart/addShoppingCart', shoppingCartController.AddShoppingCart)
-  .post('/user/shoppingCart/deleteShoppingCart', shoppingCartController.DeleteShoppingCart)
-  .post('/user/shoppingCart/updateShoppingCart', shoppingCartController.UpdateShoppingCart)
+  .post('/api/user/shoppingCart/getShoppingCart', shoppingCartController.GetShoppingCart)
+  .post('/api/user/shoppingCart/addShoppingCart', shoppingCartController.AddShoppingCart)
+  .post('/api/user/shoppingCart/deleteShoppingCart', shoppingCartController.DeleteShoppingCart)
+  .post('/api/user/shoppingCart/updateShoppingCart', shoppingCartController.UpdateShoppingCart)
 
 module.exports = shoppingCartRouter;

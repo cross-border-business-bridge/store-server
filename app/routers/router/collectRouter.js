@@ -11,8 +11,8 @@ const collectController = require('../../controllers/collectController')
 let collectRouter = new Router();
 
 collectRouter
-  .post('/user/collect/addCollect', collectController.AddCollect)
-  .post('/user/collect/getCollect', collectController.GetCollect)
-  .post('/user/collect/deleteCollect', collectController.DeleteCollect)
+  .post('/api/user/collect/addCollect', collectController.AddCollect)
+  .post('/api/user/collect/getCollect', collectController.GetCollect)
+  .post('/api/user/collect/deleteCollect', collectController.DeleteCollect)
 
 module.exports = collectRouter;

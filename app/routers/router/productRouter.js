@@ -11,13 +11,13 @@ const productController = require('../../controllers/productController')
 let productRouter = new Router();
 
 productRouter
-  .post('/product/getAllProduct', productController.GetAllProduct)
-  .post('/product/getPromoProduct', productController.GetPromoProduct)
-  .post('/product/getHotProduct', productController.GetHotProduct)
-  .post('/product/getProductByCategory', productController.GetProductByCategory)
-  .post('/product/getCategory', productController.GetCategory)
-  .post('/product/getProductBySearch', productController.GetProductBySearch)
-  .post('/product/getDetails', productController.GetDetails)
-  .post('/product/getDetailsPicture', productController.GetDetailsPicture)
-  
+  .post('/api/product/getAllProduct', productController.GetAllProduct)
+  .post('/api/product/getPromoProduct', productController.GetPromoProduct)
+  .post('/api/product/getHotProduct', productController.GetHotProduct)
+  .post('/api/product/getProductByCategory', productController.GetProductByCategory)
+  .post('/api/product/getCategory', productController.GetCategory)
+  .post('/api/product/getProductBySearch', productController.GetProductBySearch)
+  .post('/api/product/getDetails', productController.GetDetails)
+  .post('/api/product/getDetailsPicture', productController.GetDetailsPicture)
+
 module.exports = productRouter;

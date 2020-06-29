@@ -11,7 +11,7 @@ const orderController = require('../../controllers/orderController')
 let orderRouter = new Router();
 
 orderRouter
-  .post('/user/order/getOrder', orderController.GetOrder)
-  .post('/user/order/addOrder', orderController.AddOrder)
+  .post('/api/user/order/getOrder', orderController.GetOrder)
+  .post('/api/user/order/addOrder', orderController.AddOrder)
 
 module.exports = orderRouter;
