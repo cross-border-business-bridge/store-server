@@ -11,7 +11,7 @@ create table users(
   user_id int primary key auto_increment,
   userName char (40) not null unique,
   password char (40) not null,
-  userPhoneNumber char(11) null
+  userPhoneNumber char(11) not null
 );
 -- ALTER TABLE users MODIFY COLUMN userName char (40) not null unique;
 -- ALTER TABLE users MODIFY COLUMN password char (40)  not null;
